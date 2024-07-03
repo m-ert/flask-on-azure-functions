@@ -16,6 +16,7 @@ def main(req: func.HttpRequest, context: func.Context) -> func.HttpResponse:
 @app.route("/")
 def index():
     return "Hello World"
-
+"""
 if __name__ == '__main__':
     app.run()
+"""
